@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Try Bootstrap</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bts.css">
+    </head>
+    <body>
+        <!--
+        <main class="container-fluid">
+            <nav class="navbar navbar-expand-md">
+                <img src="https://mimo.app/i/wakande.png" alt="Wakande" class="navbar-brand">
+
+                <ul class="navbar-nav">
+                    <li class="nav-link">Home</li>
+                    <li class="nav-link">Contact</li>
+                    <li class="nav-link">Blog</li>
+                </ul>
+            </nav>
+        </main>
+
+    -->
+    <hr/>
+<!--
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col col-7">Column 1</div>
+            <div class="col col-5">Column</div><!--This column is smaller in size than the former
+        </div>
+    </div>
+
+-->
+
+<hr/>
+
+<!--To make a paragraph stand out, add the predefined class "lead" to the p element
+
+    for example-->
+
+
+<!--
+<div class="container-fluid">
+    <div class="row">
+        <div class="col text-center">
+            <h1 class="text-white bg-primary rounded m-2 p-2">Olympics Games</h1>
+            <p class="lead text-primary shadow">The modern Olympic Games features sports competitions 
+                happening every four years. These games started in 1894 involving sports competitions with over 200 Nations.
+            </p>
+            <p>The 2020 Summer Olympics are meant to happen in Tokyo, Japan and are set to take place in 2021due to the COVID-19 pandemic. The 2024 Summer Olympics will be held in Paris, France.</p>
+
+            <P class="text-uppercase">The Guradian Media</P>
+        </div>
+    </div>
+</div>
+
+-->
+
+<!--STYLING CONTENT WITH BOOTSTRAP-->
+
+<!--mAKE THE TEXT LARGER USING THE PREDEFINED "LEAD" CLASS-->
+
+            <!--NOTICE THE USE OF "bg-primary" to set a blue background, and "bg-secondary" to set a grey background-->
+<!--Notice the use of predefined classes to change text color - 
+
+FOR EXAMPLE: "text-success" changes the text color to green, 
+"text-primary" changes the text color to blue
+"text-white" changes text color to white
+
+ALSO NOTICE CHANGE OF CASE using classes: 
+
+FOR EXAMPLE
+
+"TEXT-UPPERCASE" changes case to uppercase
+"text-lowercase" transforms case to lowercase - small letters-->
+
+<!--
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <h3 class="text-uppercase bg-primary p-3 text-center text-white bg-secondary">South Pole</h3>
+            <p class="lead text-primary">The South Pole, also known as the Geographic South Pole or terrestrial South Pole, is one of the two points where Earth's axis of rotation intersects its surface.</p>
+        </div>
+    </div>
+</div>
+    
+-->
+
+<!--ALIGN TEXT TO LEFT, CENTER OR RIGHT USING "TEXT-LEFT", "TEXT-CENTER", AND "TEXT-RIGHT" RESPECTIVELY-->
+<!--
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <h3 class="text-uppercase bg-primary text-success">Sky Sports</h3>
+            <p class="lead text-primary">Cristiano Ronaldo made history on Monday night as he scored his first ever 
+                Serie A hat-trick for Juventus.
+            </p>
+        </div>
+    </div>
+</div>
+-->
+
+<!--USING BOOTSTRAP BUTTONS-->
+<!--"btn" class creates a bootstrap button, 
+"btn-success - creates a green bg for the button"
+"btn-danger" -used to indicate a warning or danger when a btn is clicked
+
+IF WE WANT TO CHANGE THE SIZE OF THE BUTTONS -
+
+USE "btn-lg" to make the button larger
+USE "btn-sm" to make the button smaller-->
+
+<div class="container-fluid text-center bg-light p-4">
+    <div class="row">
+        <div class="col">
+            <h3 class="m-4">Shopping Cart</h3>
+            <button class="btn btn-sm btn-success" type="button">Purchase</button>
+            <h3 class="m-4">Delete Account</h3>
+            <button class="btn btn-danger btn-lg">Confirm</button>
+
+            <h3 class="m-3 text-primary">Other bootstrap buttons </h3>
+            <button class="btn-primary btn m-2">btn-primary</button><br>
+            <button class="btn-secondary btn m-2">btn-secondary</button><br>
+            <button class="btn btn-info m-2">btn-info</button><br>
+            <button class="btn btn-dark m-2">btn-dark</button>
+        </div>
+    </div>
+</div>
+
+
+<!--WORKING WITH BOOTSTRAP CARDS
+
+the "card" class turns a div into a bootstrap card
+
+to place an image at the top of the card, we create an image  in the card and give it the class "card-img-top"-->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-header">Featured Trips</div>
+                <img src="https://mimo.app/i/holiday.png" alt="" class="card-img-top">
+                Card components will go here
+                <div class="card-body">
+                    <h5 class="card-title">Mauritius Holiday</h5>
+                    <p class="card-text">Vacation in Mauritius is where the perfect holiday starts.</p>
+                </div>
+                <div class="card-footer">2 days ago</div>
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+</html>
+

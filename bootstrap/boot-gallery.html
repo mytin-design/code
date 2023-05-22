@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid - Bootstrap </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="card">
+        <p class="">Lorem, ipsum dolor.</p>
+        <img src="./images/ghost-pic-design.jpg" width="150" alt="Ghost" class="img-rounded img-responsive">
+        <p class="footer">Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <div class="card">
+        <p class="">Lorem, ipsum dolor.</p>
+        <img src="./images/ghost-pic-design.jpg" width="150" alt="Ghost" class="img-rounded img-responsive">
+        <p class="footer">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="card">
+        <p class="">Lorem, ipsum dolor.</p>
+        <img src="./images/ghost-pic-design.jpg" width="150" alt="Ghost" class="img-rounded img-responsive">
+        <p class="footer">Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <script class="src">
+        const toRep = document.getElementsByClassName('card');
+
+        window.onload = function repeat() {
+            for (var i = 0; i < 4; i++) {
+                document.body.appendChild(toRep);
+            }
+        }
+    </script>
+</body>
+</html>

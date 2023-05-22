@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Typography</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+    <p class="lead">Makes a paragraph stand out</p>    
+    <div class="parent">
+
+        <!--Remove small class and see how the text advances in size-->
+        <p class="small">Indicates smaller text (set to 85% of the size of the parent)</p>
+
+    <p class="text-left">Indicates letf-aligned text</p>  
+    <p class="text-center">Indicates center aligned text</p>  
+    <p class="text-right">Inidicates right-aligned text</p>
+
+    <p class="text-justify">Inidcates justified text</p>
+    <p class="text-nowrap">Indicates no wrap text</p>
+
+    <p class="text-lowercase">Indicates lowercased text</p>
+
+    <p class="text-uppercase">Indicates uppercased text</p>
+
+    <p class="text-capitalize">Indicates capitalized text - Capitalizes each word</p>
+
+    <p class="initialism">Displays the text inside an <code><abbr></abbr></code> element in a slightly smaller font size.</p>
+
+    <p class="list-unstyled">Removes the default list style and left margin on list items (works on both <code><ul></ul></code> and <code><ol></ol></code>. This class only applies to immediate children list items (to remove the default list-style from any nested lists, apply this calss to any nested lists as well)  )</p>
+
+    <!--Notice how the styling for the lists is removed, including the list style type and margin -->
+    <ul class="list-unstyled">
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+    </ul>
+
+
+    <ol class="list-unstyled ">
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+    </ol>
+
+<p class="list-inline">Places all list items on a single line.</p>
+
+<ul class="list-inline">
+    <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+</ul>
+
+
+<p class="dl-horizontal">Lines up the terms ( <code><dt></dt></code> and descriptions ( <code><dd></dd></code>  in <code><dl></dl></code> ) elements side-by-side. Starts off like default <code><dl></dl></code>s, but when the browser window expands, it will line up side by side.)</p>
+
+<table>
+    <tr>
+        <dt class="dl-horizontal">Cell 1</dt>
+        <dt class="dl-horizontal">Cell 1</dt>
+        <dt class="dl-horizontal">Cell 1</dt>
+        <dt class="dl-horizontal">Cell 1</dt>
+
+    </tr>
+
+</table>
+
+
+<pre class="pre-scrollable">This is a preformated text in a pre element.  The class makes the element scrollable.</pre>
+
+
+    </div>
+
+
+    <h1>Bootstrap Tables</h1>
+<p class="">A bootstrap table has a light padding and only horizontal dividers</p>
+<p class="">The <code>.table</code> class  adds basic styling to a table.</p>
+
+
+
+    <table class="table">
+        <thead>
+            <th>
+            Firstname
+            </th>
+            <th>Lastname</th>
+            <th>Email</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>Mary@example.com</td>
+            </tr>
+            <tr>
+                <td>July</td>
+                <td>Dooley</td>
+                <td>july@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+<h1>Striped Rows</h1>
+
+    <p class="">The <code>.table-striped</code> class adds zebra-stripes to a table</p>
+
+    <!--Notice you must add the table class first to turn the table into a bootstrap table first-->
+
+
+
+    <table class="table table-striped">
+        <thead>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>John</td>    
+                <td>Doe</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+            </tr>
+            <tr>
+                <td>July</td>
+                <td>Dooley</td>
+                <td>july@example.com</td>
+            </tr>
+        </tbody>
+
+        
+    </table>
+
+
+    <h1>Bordered Table</h1>
+    <p>The <code>.table-bordered</code> class adds borders on all sides of the table and cells.</p>
+
+    <table class="table table-bordered">
+        <thead>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+            </tr>
+            <tr>
+                <td>July</td>
+                <td>Dooley</td>
+                <td>july@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <h1>Hover Rows</h1>
+    <p>The <code>.table-hover</code> class adds a hover effect (grey background color) on table rows.</p>
+
+    <table class="table table-hover">
+        <thead>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+            </tr>
+            <tr>
+                <td>July</td>
+                <td>Dooley</td>
+                <td>july@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h1>Condensed Table</h1>
+    <p>The <code>.table-condensed</code> class makes a table more compact by cutting cell padding in half.</p>
+
+    <table class="table table-condensed">
+        <thead>
+            <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>Mary@example.com</td>
+            </tr>
+            <tr>
+                <td>july</td>
+                <td>Dooley</td>
+                <td>July@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h1>Contextual classes</h1>
+    <p>Contextual classes can be used to colro table rows tr or table cells td.</p>
+
+<table class="table table-responsive">
+    <thead>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Default</td>
+            <td>Defaultson</td>
+            <td>Def@example.com</td>
+
+        </tr>
+
+        <tr>
+            <td class="success">Success</td>
+            <td class="success">Doe</td>
+            <td class="success">john@example.com</td>
+        </tr>
+
+        <tr>
+            <td class="danger">Danger</td>
+            <td class="danger">Moe</td>
+            <td class="danger">mary@example.com</td>
+        </tr>
+        <tr>
+            <td class="info">Info</td>
+            <td class="info">Dooley</td>
+            <td class="info">july@example.com</td>
+            
+        </tr>
+        <tr>
+            <td class="warning">Warning</td>
+            <td class="warning">Refs</td>
+            <td class="warning">b00@example.com</td>
+
+        </tr>
+        <tr>
+            <td class="active">
+                Active
+            </td>
+            <td class="active">Activeson</td>
+            <td class="active">act@example.com</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
+
+

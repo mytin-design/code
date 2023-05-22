@@ -1,0 +1,185 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5</title>
+    <!--Latest compiled and minified css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Latest compiled js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <h1>My First Bootstrap Page</h1>
+        <p>This is some text</p>
+        <h2>Container Padding</h2>
+        <p>By default container have left and right padding, with no top or bottom padding. Therefore, we often use <span style="font-weight: 800px;">Spacing utilities.</span>
+        Such as extra padding and margins to make them look even better. For example, <code>.pt-5</code> means add a large <span style="font-weight: 900;">top padding</span>
+        </p>
+
+
+    </div>
+
+    <div style="" class="border container pt-5">
+        <p>Text in a container</p>
+    </div>
+
+    <div class="container-md p-5 my-5 border bg-primary text-white">
+        <h1>My First Bootstrap Page</h1>
+        <p>This container has a border and some extra padding and margins.</p>
+    </div>
+
+    <div class="container-md p-5 my-5 bg-dark text-white">
+        <h1>My First Bootstrap Page</h1>
+        <p>This container has a border and some extra padding and margins.</p>
+    </div>
+
+    <div class="grid-box">
+        <h1>Bootstrap 5 Grids system</h1>
+        <p>Bootstrap's grid system is built with flexbox and allows up to 12 columns across the page</p>
+        <p>If you do not want to use all 12 columns individually, you can group the columns together to create wider columns.</p>
+
+        <div class="row">
+            <div class="col-sm-4 border pt-5 my-3 bg-light"></div>
+            <div class="col-sm-5 border pt-5 my-3 bg-light"></div>
+            <div class="col-sm-5 border pt-5 my-3 bg-light"></div>
+            <div class="col-sm-4 border pt-5 my-3 bg-light"></div>
+            <div class="col-sm-7 border pt-5 my-3 bg-light"></div>
+            <div class="col-sm-12 border pt-5 my-3 bg-light"></div>
+
+        </div>
+<!--Here we let the Bootstrap decide - by setting the class as col-->
+        <div class="row">
+            <div class="col border pt-5 my-3 bg-light"></div>
+            <div class="col border pt-5 my-3 bg-light"></div>
+            <div class="col border pt-5 my-3 bg-light"></div>
+        </div>
+
+    </div>
+
+    <div style="height: 576px; width: 576px;" class="border bg-primary round"></div>
+    
+    <!--Contextual classes - for setting up responsive columns-->
+
+    <div class="classes">
+        <p><code>.col</code> (extra small devices - screen width less than 576px)</p>
+        <p><code>.col-sm</code> (small devices - screen width to or greater than 576px)</p>
+        <p><code>.col-md</code> (Medium devices) - screen width equal to or greater than 768px</p>
+        <p><code>.col-lg</code> (Large devices) - screen width equal to or greater than 992px</p>
+        <p class=""><code>.col-xl</code> (extra large devices) - screen width equal to or greater than 1200px</p>
+        <p><code>.col-xxl</code> (xxlarge devices) - screen width equal to or greater than 1400px</p>
+        <p>The classes can be combined to create more dynamic and flexible layouts</p>
+        <p><span style="font-weight: 800;">Tip:</span> Each class scales up, so of you want to set the same widths for sm and md, you only need to specify sm.</p>
+    </div>
+
+    <div class="struc">
+        <h1>Basic structure of Bootstrap 5 Grid</h1>
+        <div class="container-fluid pt-3 bg-secondary">
+            <div class="container notranslate w3-code htmlHigh" style="color: #fff;">
+                <p><!--Control the column width, and hoe they should appear on different devices--></p>
+            
+                    <code><div class="">This box</div></code>
+                
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--Typography Classes-->
+
+    <p class="lead">This is a paragraph with a <code>.lead</code>class</p>
+    <p class="text-start">This is a text aligned to the left - notice the classes used are different for the different Boots. 
+        That is Bootstrap 3 uses <code>.text-left</code> while Bootstrap 5 uses <code>.text-start</code>
+
+    </p>
+
+    <p class="text-end">Text aligned to the right.</p>
+    <p class="text-center">Text aligned to the center.</p>
+    <p class="text-break">Prevents long text from breaking layout. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate blanditiis soluta voluptates iste voluptatum in ut. Ea veritatis temporibus corrupti labore libero consequatur soluta fugit quod et autem enim, corporis debitis tempore dolor a repellendus ratione aliquid. Ex, accusantium molestias consequatur provident architecto ullam suscipit!</p>
+    <p class="text-info without-break">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum itaque, ut atque maiores incidunt at quod harum culpa suscipit fugiat quaerat iure, doloribus consequatur temporibus natus soluta expedita obcaecati! Officiis molestias ea fuga veniam similique aliquam deserunt neque itaque rem, debitis obcaecati corrupti delectus necessitatibus quibusdam numquam deleniti enim quia?</p>
+    <a href="#" class="link text-decoration-none"><code>.text-decoration-none</code> removes the underline from a link.</a>
+    <p class="text-now">No wrap. No wrap text. No wrap text. No wrap text.</p>
+
+    <p class="text-lowercase">THIS TEXT IS IN UPPPERCASE BUT THE CLASS TURNS IT TO LOWERCASE</p>
+
+    <P class="text-uppercase">this text is in lowercase characters but the class changes it to uppercase.</P>
+    <p class="text-capitalize">this text is in all lowercase characters. but the class capitalizes the first character in each sentence.</p>
+
+    <abbr title="This is a tooltip" class="initialism">Displays the text inside an <code><abbr></code> element in a slightly smaller font size.</abbr>
+
+    <p class=""><code>.list-unstyled</code> Removes the default list-style and left margin on list items (works on both <code><ul></code> and <code><ol></code>. This class only applies 
+    to immediate children list items (to remove the default list-style from any nested lists, apply this class to any nested lists as well).
+    </p>
+
+    
+    <ul class="list-unstyled">
+        <li>List one</li>
+        <li>List two</li>
+        <li>List three</li>
+        <li>List four</li>
+    </ul>
+
+    <ol class="list-unstyled">
+        <li>List one</li>
+        <li>List two</li>
+        <li>List three</li>
+        <li>List four</li>
+    </ol>
+<hr>
+
+<!--Places all list items on a single line (used together with .list-inline-item on each <li> elements)-->
+    <!--We can make lists inline using the .list-inline class on the ul or ol parent, and the .list-inline-item class on each descendant-->
+
+    <ul class="list-inline">
+        <li class="list-inline-item">List one</li>
+        <li class="list-inline-item">List two</li>
+        <li class="list-inline-item">List three</li>
+    </ul>
+
+
+<div class="text-colors">
+    <h1>Text Colors</h1>
+    <p class="text-muted">This text is muted.</p>
+    <p class="text-primary">This text is important</p>
+    <p class="text-success">This text indicates success</p>
+    <p class="text-info">This text represents some information</p>
+    <p class="text-warning">This text represents a warning.</p>
+    <p class="text-danger">This text represents danger</p>
+    <p class="text-secondary">Secondary text</p>
+    <p class="text-white">White text </p>
+    <p class="text-dark">Dark grey text</p>
+    <p class="text-body">Body text.</p>
+    <p class="text-light">default body color/often black and <code>.text-light</code></p>
+
+    <p class="">You can also 50% opacity for balck or white text with the <code>.text-black-50</code> or <code>.text-white-50</code> classes.</p>
+    <p class="text-black-50">This text is black with an opacity of 50%</p>
+    <p class="text-white-70">This text is white with an opacity of 50%</p>
+</div>
+
+<div class="bg-colors">
+    <h1 class="text-uppercase">bootstrap background classes.</h1>
+    <p class="bg-primary">This text is important.</p>
+    <p class="bg-success">This text indicates success.</p>
+    <p class="bg-info">This text represents some information.</p>
+    <p class="bg-warning">This text represents a warning.</p>
+    <p class="bg-danger">This text represents danger.</p>
+    <p class="bg-secondary">Secondary background color.</p>
+    <p class="bg-dark">Dark grey background color.</p>
+    <p class="bg-light">Light grey background color</p>
+
+    <hr>
+    <p>Note that background colors do not set the test color, so in some cases you'll want to use them together with a <code>.text-*</code> color class.</p>
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BS-3</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+      div {
+          border: 1px solid;
+         
+            /*height: 35px;
+            width: 100px;*/
+      }
+  </style>
+
+    </head>
+    <body>
+        <!--
+
+        <p>The advantages of Bootstrap
+            - Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+            - Responsive features: Bootstrap' responsive CSS adjusts to phones, tablets, and desktop
+            - Mobile-first approach: In Bootstrap 3, mobile-first styles are part of the core framework
+            - Browser compatibility: Bootstrap is compatible with all moderb browsers (Chrome, Firefox, Internet Explorer, Edge, Safari, and Opera)
+        </p>
+        
+            <div class="container bg-primary p-5">
+            <h1>Fixed width container</h1>
+            <p><code>.container</code> class sets the width of the container to a fixed with centered in its parent container</p>
+        </div>
+
+        <div class="container-fluid bg-primary p-1">
+            <h1>Container fills the entire width</h1>
+            <p class=""><code>.container-fluid</code> sets the width of the container to fill the entire width of the page</p>
+        </div>
+        -->
+
+        <!--
+            Bootstrap offers the container class to offer specified size for content
+
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h1>Column 1</h1>
+                    <p class="">Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="col-sm-4">
+                    <h1>Column 2</h1>
+                    <p class="">Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="col-sm-4">
+                    <h1>Column 3</h1>
+                    <p class="">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+        -->
+
+
+        <!--
+            Bootstrap Grid system 
+            It allows up to 12 columns across the page
+
+            you can group the columns together to create wider columns
+
+            the system is responsive, and the columns will rearrange automatically depending on the screen size
+
+            the bootstrap grid system has four classes
+ 
+
+
+
+            xs - for phones  - screens less than 769px wide
+            sm for tablets - screens equal to or greater than 768px wide
+            md for small laptops - screens equal to or greater than 992px wide
+            lg for laptops and desktops -screens equal to or greater than 1200px wide
+
+            the classes can be combined to create more dynamic and flexible layouts
+
+            
+        -->
+
+        <!--
+            <div class="container-fluid bg-primary">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h1>This is a Bootstrap header</h1>
+                    <p>This is a Bootstrap paragraph.</p>
+                </div>
+
+                <div class="col-sm-6">
+                    <h1>This is a Bootstrap header</h1>
+                    <p>This is a Bootstrap paragraph.</p>
+                </div>
+
+                
+
+
+
+            </div>
+        </div>
+        
+        -->
+
+        <!--
+
+            The content expands and fills the container - so if you code an empty div the illustration will not be as intented
+
+
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h1>This is a Bootstrap Header</h1>
+                    <p class="">This is a Bootstrap Paragraph</p>
+
+
+                </div>
+                <div class="col-sm-5"></div>
+            </div>
+        </div>
+        -->
+
+
+    <!--
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h1>This is a bootstrap header</h1>
+                    <p>This is a Bootstrap paragraph </p>
+                </div>
+
+                <div class="col-lg-4">
+                    <h1>This is a bootstrap header</h1>
+                    <p>This is a Bootstrap paragraph </p>
+                </div>
+            </div>
+        </div>
+    -->
+
+
+    <!--
+        Bootstrap Default Settings
+
+        - Bootstrap global default font-size is 14px with a line height of 1.428
+        - This is applied to the <body> element and all paragraphs <p>.
+        - All <p> elements have a bottom margin that equals half their computed line-height (10px by default)
+
+
+        - Bootstrap vs. Browser Defaults
+        We have bootstrap styles that are different from browser defaults
+
+
+        By default, Bootstrap will style the HTML headings (h1 - h6)  in the following manner
+
+        h1 Bootstrap heading - 36px
+        h2 Bootatrap heading - 20px
+        h3 - Bootstrap  heading - 24px
+        h4 - Bootstrap heading - 18px
+        h5 - Bootstrap heading - 14px
+        h6 Bootstrap heading - 12px
+
+
+        <small>
+
+            In Bootstrap the HTML small element is used to create a lighter, secondary text in any heading
+
+            h1 heading <small>Secondary text</small>
+
+            h2 heading <small>Secondary text</small>
+
+            h3 heading <small>Secondary text</small>
+            h4 heading <small>Secondary text</small>
+            h5 heading <small>Secondary text</small>
+            h6 heading <small>Secondary text</small>
+
+<mark>
+
+    - Bootstrap will style the HTML <mark> element in the following way:
+        the mark element is used to highlight text
+
+        - the <abbr> element - 
+
+            - Bootstrap will style the HTML <abbr> element in the following way:
+                - 
+        
+<blockquote>
+
+    - The Bootstrap will style the HTML <BLOCKQUOTE> element in the following way:
+        <blockquote>
+             
+
+    For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+    From WWF's website
+
+        </blockquote>
+
+
+        <dl> Bootstrap will style the HTML <dl> element in the following way:
+
+            <code>
+
+                Bootstrap will style the HTML <code> element in the following way:
+
+
+                    <kbd>
+
+                        Bootstrap will style the HTML <kbd> element in the following way: 
+
+
+            <pre>
+
+                Bootstrap will style the HTML <pre> element in the following way: 
+
+
+                    Contextual Colors and Backgrounds
+
+                    Bootstrap also has some contextual classes taht can be used to provide "meaning through color"
+
+                    The classes for text colors are : 
+                    - .text-muted
+                    - . text-primary
+                    - . text-success
+                    - .text-info
+                    - . text-warning
+                    - .text-danger
+
+The classes for background colors are: .bg-primary, bg-success, . bg-info, .bg-warning, .bg-danger
+
+
+
+                    
+            
+    -->
+
+
+    <h1>H1 Bootstrap header: 36px <small>Secondary text</small></h1> 
+    <h2>H2 Bootstrap header : 30px <small>Secondary text</small></h2>
+    <h3>H3 Bootstrap header: 24px <small>Secondary text</small></h3>
+    <h4>H4 Bootstrap header: 18px <small>Secondary text</small></h4>
+    <h5>H5 Bootstrap header: 14px <small>Secondary text</small></h5>
+    <h6>H6 Bootstrap header: 12px <small>Secondary text</small></h6>
+
+<mark>This is a higlighted text in Bootstrap.</mark>
+
+<blockquote class="blockquote-reverse">
+             
+
+    For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+    
+    <br>
+    <cite>From WWF's website</cite>
+
+        </blockquote>
+
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- Black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- White cold drink</dd>
+    </dl>
+
+
+    <p>The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code> defines a section in a document.</p>
+
+    <p class="">Use <kbd>ctr + P</kbd> to open the Print dialog box</p>
+
+    <pre style="background-color: #eee;">Text in a pre element is displayed in a fixed width font, and it preserves both    spaces and  
+        line breaks.
+    </pre>
+
+
+    <div style="background-color: #eee;" class="container-fluid">
+        <p class="text-muted">This text is muted.</p>
+
+    <p class="text-primary">This is important.</p>
+
+    <p class="text-success">This text indicates success.</p>
+
+    <p class="text-info">This text represents some information.</p>
+
+    <p class="text-warning">This text represents some warning.</p>
+
+    <p class="text-danger">This text represents danger.</p>
+
+    </div>
+
+
+    <div style="background-color: #eee;" class="container">
+        <p class="bg-primary">This text is important.</p>
+
+        <p class="bg-success">This text indicates success.</p>
+
+        <p class="bg-in">This text represents some information.</p>
+
+        <p class="bg-warning">This text represnts a warning.</p>
+
+        <p class="bg danger">The text represents danger.</p>
+    </div>
+
+    <!--mORE TYPOGRAPHY CLASSES-->
+
+    <p class="lead">Makes a paragraph stand out.</p>
+    <div style="font-size:1.5rem;" class="parent">
+        <p class="smal">Indicates smaller text (set to 85% of the size of the parent.)</p>
+    </div>
+
+
+
+    </body>
+</html>
